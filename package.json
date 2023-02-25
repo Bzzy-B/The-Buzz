@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "press:dev": "vitepress dev content",
+    "press:build": "vitepress build content",
+    "press:preview": "vitepress preview content"
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0",
+    "vitepress": "^1.0.0-alpha.47"
+  }
+}
